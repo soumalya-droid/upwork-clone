@@ -1,0 +1,12 @@
+# dependencies
+node_modules
+
+# production build
+build
+
+# git
+.git
+.gitignore
+
+# vscode
+.vscode
