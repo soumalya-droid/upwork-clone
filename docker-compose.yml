@@ -6,6 +6,7 @@ services:
     container_name: influencer_web
     volumes:
       - ./src:/var/www/html
+      - ./apache/000-default.conf:/etc/apache2/sites-available/000-default.conf
     ports:
       - "8080:80"
     depends_on:
